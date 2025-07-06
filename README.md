@@ -7,7 +7,8 @@ This repository contains a Simulink-based implementation of a **Kalman Filter** 
 The system models a vehicle receiving torque inputs and simulates its one-dimensional motion. A Kalman Filter is used to estimate the state vector:
 
 $$
-x = \begin{bmatrix} \text{position} \\ \text{velocity} \end{bmatrix}
+x = [ position
+      velocity ]
 $$
 
 The goal is to reconstruct accurate state estimates using:
